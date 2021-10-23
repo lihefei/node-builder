@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+header {
+    padding: 15px;
+    background-color: #333;
+    text-align: center
+}
+
+header>.container {
+    overflow: visible
+}
+
+#logo {
+    display: block;
+    border: none
+}
+
+#logo:hover {
+    background-color: transparent;
+    text-decoration: underline
+}
+
+#logo img {
+    display: block;
+    margin: .5em auto 0;
+    border: none;
+    max-height: 75px;
+    max-width: 180px
+}
+
+main {
+    padding: 100px;
+    text-align: center;
+    font-size: 36px;
+}
+
+button {
+    font-size: 32px;
+}

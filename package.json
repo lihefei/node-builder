@@ -1,0 +1,17 @@
+{
+    "name": "node-builder",
+    "version": "1.0.0",
+    "description": "",
+    "source": "src/index.js",
+    "scripts": {
+        "build": "node build/index.js",
+        "dev": "node build/index.js --mode development"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "mime-types": "^2.1.33"
+    }
+}
